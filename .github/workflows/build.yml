@@ -20,7 +20,6 @@ jobs:
         curl -fSL https://download.strongswan.org/strongswan-5.9.11.tar.bz2 -o strongswan.tar.bz2
         tar xjf strongswan.tar.bz2
         cd strongswan-5.9.11
-        autoreconf -i
         CC="gcc"
         CXX="g++"
         ./configure \
