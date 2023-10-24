@@ -29,5 +29,5 @@ jobs:
         make
     - uses: actions/upload-artifact@v3
       with:
-        name: aria2c
-        path: /tmp/strongswan-5.9.11
+        name: ikev2
+        path: /tmp/strongswan-5.9.11/src
